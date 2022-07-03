@@ -1,0 +1,33 @@
+[2022-07-02 10:52:39,311] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: seed_postgres_db_dag.seed_users_table manual__2022-07-02T10:52:36.829834+00:00 [queued]>
+[2022-07-02 10:52:39,328] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: seed_postgres_db_dag.seed_users_table manual__2022-07-02T10:52:36.829834+00:00 [queued]>
+[2022-07-02 10:52:39,328] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-02 10:52:39,328] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-07-02 10:52:39,328] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-02 10:52:39,353] {taskinstance.py:1378} INFO - Executing <Task(PostgresOperator): seed_users_table> on 2022-07-02 10:52:36.829834+00:00
+[2022-07-02 10:52:39,359] {standard_task_runner.py:52} INFO - Started process 424 to run task
+[2022-07-02 10:52:39,363] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'seed_postgres_db_dag', 'seed_users_table', 'manual__2022-07-02T10:52:36.829834+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/seed_postgres_db_dag.py', '--cfg-path', '/tmp/tmp0aph58q0', '--error-file', '/tmp/tmpvtii406j']
+[2022-07-02 10:52:39,364] {standard_task_runner.py:80} INFO - Job 30: Subtask seed_users_table
+[2022-07-02 10:52:39,470] {task_command.py:370} INFO - Running <TaskInstance: seed_postgres_db_dag.seed_users_table manual__2022-07-02T10:52:36.829834+00:00 [running]> on host a5e5aec483b5
+[2022-07-02 10:52:39,689] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=seed_postgres_db_dag
+AIRFLOW_CTX_TASK_ID=seed_users_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-02T10:52:36.829834+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-02T10:52:36.829834+00:00
+[2022-07-02 10:52:39,709] {base.py:68} INFO - Using connection ID 'postgres_conn' for task execution.
+[2022-07-02 10:52:39,716] {dbapi.py:208} INFO - Running statement: 
+            TRUNCATE users;
+            INSERT INTO users (firstname, lastname, country, username, password, email)
+            VALUES ('Juho', 'Lampo', 'Finland', 'whitetiger106', 'drifter', 'juho.lampo@example.com');
+            INSERT INTO users (firstname, lastname, country, username, password, email)
+            VALUES ('Tristan', 'Clark', 'Canada', 'bluekoala535', 'deadly', 'tristan.clark@example.com');
+            INSERT INTO users (firstname, lastname, country, username, password, email)
+            VALUES ('Angie', 'Swiers', 'Netherlands', 'purplebear463', 'surfer1', 'angie.swiers@example.com');
+            , parameters: None
+[2022-07-02 10:52:39,727] {dbapi.py:216} INFO - Rows affected: 1
+[2022-07-02 10:52:39,752] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=seed_postgres_db_dag, task_id=seed_users_table, execution_date=20220702T105236, start_date=20220702T105239, end_date=20220702T105239
+[2022-07-02 10:52:39,777] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-02 10:52:39,827] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

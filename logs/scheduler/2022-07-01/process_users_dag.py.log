@@ -1,0 +1,42 @@
+[2022-07-01 12:34:41,752] {processor.py:153} INFO - Started process (PID=38) to work on /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:34:41,752] {processor.py:641} INFO - Processing file /opt/airflow/dags/process_users_dag.py for tasks to queue
+[2022-07-01 12:34:41,753] {logging_mixin.py:115} INFO - [2022-07-01 12:34:41,753] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:34:42,376] {processor.py:651} INFO - DAG(s) dict_keys(['process_users_dag']) retrieved from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:34:42,413] {logging_mixin.py:115} INFO - [2022-07-01 12:34:42,413] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:34:42,458] {logging_mixin.py:115} INFO - [2022-07-01 12:34:42,458] {dag.py:2927} INFO - Setting next_dagrun for process_users_dag to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:34:42,481] {processor.py:161} INFO - Processing /opt/airflow/dags/process_users_dag.py took 0.733 seconds
+[2022-07-01 12:35:12,739] {processor.py:153} INFO - Started process (PID=70) to work on /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:35:12,741] {processor.py:641} INFO - Processing file /opt/airflow/dags/process_users_dag.py for tasks to queue
+[2022-07-01 12:35:12,742] {logging_mixin.py:115} INFO - [2022-07-01 12:35:12,742] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:35:13,162] {processor.py:651} INFO - DAG(s) dict_keys(['process_users_dag']) retrieved from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:35:13,187] {logging_mixin.py:115} INFO - [2022-07-01 12:35:13,187] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:35:13,222] {logging_mixin.py:115} INFO - [2022-07-01 12:35:13,222] {dag.py:2927} INFO - Setting next_dagrun for process_users_dag to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:35:13,242] {processor.py:161} INFO - Processing /opt/airflow/dags/process_users_dag.py took 0.506 seconds
+[2022-07-01 12:35:43,350] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:35:43,351] {processor.py:641} INFO - Processing file /opt/airflow/dags/process_users_dag.py for tasks to queue
+[2022-07-01 12:35:43,351] {logging_mixin.py:115} INFO - [2022-07-01 12:35:43,351] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:35:43,766] {processor.py:651} INFO - DAG(s) dict_keys(['process_users_dag']) retrieved from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:35:43,789] {logging_mixin.py:115} INFO - [2022-07-01 12:35:43,788] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:35:43,813] {logging_mixin.py:115} INFO - [2022-07-01 12:35:43,813] {dag.py:2927} INFO - Setting next_dagrun for process_users_dag to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:35:43,824] {processor.py:161} INFO - Processing /opt/airflow/dags/process_users_dag.py took 0.476 seconds
+[2022-07-01 12:36:13,998] {processor.py:153} INFO - Started process (PID=126) to work on /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:36:13,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/process_users_dag.py for tasks to queue
+[2022-07-01 12:36:13,999] {logging_mixin.py:115} INFO - [2022-07-01 12:36:13,999] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:36:14,686] {processor.py:651} INFO - DAG(s) dict_keys(['process_users_dag']) retrieved from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:36:14,718] {logging_mixin.py:115} INFO - [2022-07-01 12:36:14,717] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:36:14,761] {logging_mixin.py:115} INFO - [2022-07-01 12:36:14,761] {dag.py:2927} INFO - Setting next_dagrun for process_users_dag to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:36:14,776] {processor.py:161} INFO - Processing /opt/airflow/dags/process_users_dag.py took 0.784 seconds
+[2022-07-01 12:36:45,293] {processor.py:153} INFO - Started process (PID=157) to work on /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:36:45,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/process_users_dag.py for tasks to queue
+[2022-07-01 12:36:45,295] {logging_mixin.py:115} INFO - [2022-07-01 12:36:45,295] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:36:45,854] {processor.py:651} INFO - DAG(s) dict_keys(['process_users_dag']) retrieved from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:36:45,887] {logging_mixin.py:115} INFO - [2022-07-01 12:36:45,887] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:36:45,922] {logging_mixin.py:115} INFO - [2022-07-01 12:36:45,922] {dag.py:2927} INFO - Setting next_dagrun for process_users_dag to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:36:45,941] {processor.py:161} INFO - Processing /opt/airflow/dags/process_users_dag.py took 0.650 seconds
+[2022-07-01 12:37:16,690] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:37:16,693] {processor.py:641} INFO - Processing file /opt/airflow/dags/process_users_dag.py for tasks to queue
+[2022-07-01 12:37:16,693] {logging_mixin.py:115} INFO - [2022-07-01 12:37:16,693] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:37:17,193] {processor.py:651} INFO - DAG(s) dict_keys(['process_users_dag']) retrieved from /opt/airflow/dags/process_users_dag.py
+[2022-07-01 12:37:17,215] {logging_mixin.py:115} INFO - [2022-07-01 12:37:17,215] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:37:17,241] {logging_mixin.py:115} INFO - [2022-07-01 12:37:17,240] {dag.py:2927} INFO - Setting next_dagrun for process_users_dag to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:37:17,253] {processor.py:161} INFO - Processing /opt/airflow/dags/process_users_dag.py took 0.566 seconds

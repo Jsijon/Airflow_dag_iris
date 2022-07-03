@@ -1,0 +1,24 @@
+[2022-07-02 12:54:05,958] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: process_flowers_dag._get_flowers_from_postgres manual__2022-07-02T12:53:58.212474+00:00 [queued]>
+[2022-07-02 12:54:05,974] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: process_flowers_dag._get_flowers_from_postgres manual__2022-07-02T12:53:58.212474+00:00 [queued]>
+[2022-07-02 12:54:05,974] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-02 12:54:05,975] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-07-02 12:54:05,975] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-02 12:54:05,998] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): _get_flowers_from_postgres> on 2022-07-02 12:53:58.212474+00:00
+[2022-07-02 12:54:06,006] {standard_task_runner.py:52} INFO - Started process 71 to run task
+[2022-07-02 12:54:06,010] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'process_flowers_dag', '_get_flowers_from_postgres', 'manual__2022-07-02T12:53:58.212474+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/process_iris_data.py', '--cfg-path', '/tmp/tmpjta3g3ke', '--error-file', '/tmp/tmpr7ymwf6w']
+[2022-07-02 12:54:06,011] {standard_task_runner.py:80} INFO - Job 74: Subtask _get_flowers_from_postgres
+[2022-07-02 12:54:06,102] {task_command.py:370} INFO - Running <TaskInstance: process_flowers_dag._get_flowers_from_postgres manual__2022-07-02T12:53:58.212474+00:00 [running]> on host a5e5aec483b5
+[2022-07-02 12:54:06,272] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=process_flowers_dag
+AIRFLOW_CTX_TASK_ID=_get_flowers_from_postgres
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-02T12:53:58.212474+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-02T12:53:58.212474+00:00
+[2022-07-02 12:54:06,305] {base.py:68} INFO - Using connection ID 'postgres_conn' for task execution.
+[2022-07-02 12:54:06,318] {python.py:173} INFO - Done. Returned value was: [{'id': 1, 'sepal_length': '5.1', 'sepal_width': '3.5', 'petal_length': '1.4', 'petal_width': '0.2', 'variety': 'Setosa'}, {'id': 2, 'sepal_length': '4.9', 'sepal_width': '3', 'petal_length': '1.4', 'petal_width': '0.2', 'variety': 'Setosa'}, {'id': 3, 'sepal_length': '4.7', 'sepal_width': '3.2', 'petal_length': '1.3', 'petal_width': '0.2', 'variety': 'Setosa'}]
+[2022-07-02 12:54:06,369] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=process_flowers_dag, task_id=_get_flowers_from_postgres, execution_date=20220702T125358, start_date=20220702T125405, end_date=20220702T125406
+[2022-07-02 12:54:06,423] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-02 12:54:06,519] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

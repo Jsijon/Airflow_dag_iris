@@ -1,0 +1,42 @@
+[2022-07-01 12:34:41,746] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:34:41,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2022-07-01 12:34:41,747] {logging_mixin.py:115} INFO - [2022-07-01 12:34:41,747] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:34:42,376] {processor.py:651} INFO - DAG(s) dict_keys(['churn_prediction_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:34:42,411] {logging_mixin.py:115} INFO - [2022-07-01 12:34:42,411] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:34:42,455] {logging_mixin.py:115} INFO - [2022-07-01 12:34:42,454] {dag.py:2927} INFO - Setting next_dagrun for churn_prediction_pipeline to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:34:42,484] {processor.py:161} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.740 seconds
+[2022-07-01 12:35:12,735] {processor.py:153} INFO - Started process (PID=69) to work on /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:35:12,741] {processor.py:641} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2022-07-01 12:35:12,742] {logging_mixin.py:115} INFO - [2022-07-01 12:35:12,742] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:35:13,162] {processor.py:651} INFO - DAG(s) dict_keys(['churn_prediction_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:35:13,187] {logging_mixin.py:115} INFO - [2022-07-01 12:35:13,187] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:35:13,222] {logging_mixin.py:115} INFO - [2022-07-01 12:35:13,222] {dag.py:2927} INFO - Setting next_dagrun for churn_prediction_pipeline to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:35:13,241] {processor.py:161} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.510 seconds
+[2022-07-01 12:35:43,347] {processor.py:153} INFO - Started process (PID=101) to work on /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:35:43,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2022-07-01 12:35:43,348] {logging_mixin.py:115} INFO - [2022-07-01 12:35:43,348] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:35:43,746] {processor.py:651} INFO - DAG(s) dict_keys(['churn_prediction_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:35:43,770] {logging_mixin.py:115} INFO - [2022-07-01 12:35:43,770] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:35:43,797] {logging_mixin.py:115} INFO - [2022-07-01 12:35:43,797] {dag.py:2927} INFO - Setting next_dagrun for churn_prediction_pipeline to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:35:43,814] {processor.py:161} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.469 seconds
+[2022-07-01 12:36:13,999] {processor.py:153} INFO - Started process (PID=125) to work on /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:36:14,000] {processor.py:641} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2022-07-01 12:36:14,000] {logging_mixin.py:115} INFO - [2022-07-01 12:36:14,000] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:36:14,685] {processor.py:651} INFO - DAG(s) dict_keys(['churn_prediction_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:36:14,716] {logging_mixin.py:115} INFO - [2022-07-01 12:36:14,715] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:36:14,749] {logging_mixin.py:115} INFO - [2022-07-01 12:36:14,748] {dag.py:2927} INFO - Setting next_dagrun for churn_prediction_pipeline to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:36:14,764] {processor.py:161} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.769 seconds
+[2022-07-01 12:36:45,289] {processor.py:153} INFO - Started process (PID=156) to work on /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:36:45,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2022-07-01 12:36:45,295] {logging_mixin.py:115} INFO - [2022-07-01 12:36:45,295] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:36:45,898] {processor.py:651} INFO - DAG(s) dict_keys(['churn_prediction_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:36:45,930] {logging_mixin.py:115} INFO - [2022-07-01 12:36:45,929] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:36:45,970] {logging_mixin.py:115} INFO - [2022-07-01 12:36:45,970] {dag.py:2927} INFO - Setting next_dagrun for churn_prediction_pipeline to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:36:45,988] {processor.py:161} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.702 seconds
+[2022-07-01 12:37:16,686] {processor.py:153} INFO - Started process (PID=179) to work on /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:37:16,693] {processor.py:641} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2022-07-01 12:37:16,693] {logging_mixin.py:115} INFO - [2022-07-01 12:37:16,693] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:37:17,180] {processor.py:651} INFO - DAG(s) dict_keys(['churn_prediction_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2022-07-01 12:37:17,202] {logging_mixin.py:115} INFO - [2022-07-01 12:37:17,202] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-01 12:37:17,227] {logging_mixin.py:115} INFO - [2022-07-01 12:37:17,227] {dag.py:2927} INFO - Setting next_dagrun for churn_prediction_pipeline to 2022-06-30T00:00:00+00:00, run_after=2022-07-01T00:00:00+00:00
+[2022-07-01 12:37:17,239] {processor.py:161} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.556 seconds

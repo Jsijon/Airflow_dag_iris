@@ -1,0 +1,50 @@
+[2022-07-02 10:45:28,465] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: seed_postgres_db_dag.create_users_table manual__2022-07-02T10:45:27.392030+00:00 [queued]>
+[2022-07-02 10:45:28,478] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: seed_postgres_db_dag.create_users_table manual__2022-07-02T10:45:27.392030+00:00 [queued]>
+[2022-07-02 10:45:28,478] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-02 10:45:28,478] {taskinstance.py:1358} INFO - Starting attempt 1 of 1
+[2022-07-02 10:45:28,478] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-02 10:45:28,496] {taskinstance.py:1378} INFO - Executing <Task(PostgresOperator): create_users_table> on 2022-07-02 10:45:27.392030+00:00
+[2022-07-02 10:45:28,501] {standard_task_runner.py:52} INFO - Started process 108 to run task
+[2022-07-02 10:45:28,505] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'seed_postgres_db_dag', 'create_users_table', 'manual__2022-07-02T10:45:27.392030+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/seed_postgres_db_dag.py', '--cfg-path', '/tmp/tmprye_l_j0', '--error-file', '/tmp/tmpr_5s5jga']
+[2022-07-02 10:45:28,506] {standard_task_runner.py:80} INFO - Job 28: Subtask create_users_table
+[2022-07-02 10:45:28,578] {task_command.py:370} INFO - Running <TaskInstance: seed_postgres_db_dag.create_users_table manual__2022-07-02T10:45:27.392030+00:00 [running]> on host a5e5aec483b5
+[2022-07-02 10:45:28,703] {taskinstance.py:1572} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=seed_postgres_db_dag
+AIRFLOW_CTX_TASK_ID=create_users_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-02T10:45:27.392030+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-02T10:45:27.392030+00:00
+[2022-07-02 10:45:28,716] {base.py:68} INFO - Using connection ID 'postgres_conn' for task execution.
+[2022-07-02 10:45:28,721] {dbapi.py:208} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS flowers_table (
+                id SERIAL PRIMARY KEY,
+                sepal_length NUMBER NOT NULL,
+                sepal_width NUMBER NOT NULL,
+                petal_length NUMBER NOT NULL,
+                petal_width NUMBER NOT NULL,
+            );
+            , parameters: None
+[2022-07-02 10:45:28,722] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/operators/postgres.py", line 92, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 188, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 212, in _run_command
+    cur.execute(sql_statement)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+psycopg2.errors.SyntaxError: syntax error at or near ")"
+LINE 8:             );
+                    ^
+
+[2022-07-02 10:45:28,734] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=seed_postgres_db_dag, task_id=create_users_table, execution_date=20220702T104527, start_date=20220702T104528, end_date=20220702T104528
+[2022-07-02 10:45:28,755] {standard_task_runner.py:97} ERROR - Failed to execute job 28 for task create_users_table (syntax error at or near ")"
+LINE 8:             );
+                    ^
+; 108)
+[2022-07-02 10:45:28,798] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-02 10:45:28,882] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
