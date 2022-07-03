@@ -13,6 +13,7 @@ Also older data are read from postgres db with 'get_flowers_from_postgres'. New 
 First seed_postgres_db_dag should be run to create postgres db and fill the table.
 
 Notes:
+  - Code is based on https://github.com/alexvanzyl/airflow-lab-bda
   - Numbers are stored in db as string as there was an issue with serialization and xcon and numeric values caused errors.
   - Dag as shown bellow is consisted of two seperate pipelines, i didn't find a way so task 'get_flowers_from_csv' not to be created two seperate times.
 
