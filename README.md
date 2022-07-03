@@ -14,7 +14,7 @@ First seed_postgres_db_dag should be run to create postgres db and fill the tabl
 
 Notes:
   - Numbers are stored in db as string as there was an issue with serialization and xcon and numeric values caused errors.
-  - Dag as shown bellow is consisted of two seperate pipelines, i couldn't avoid task 'get_flowers_from_csv' to be created two seperate times instead of      having another branch starting with 'update_postgres_with_new_data' task to follow.
+  - Dag as shown bellow is consisted of two seperate pipelines, i didn't find a way so task 'get_flowers_from_csv' not to be created two seperate times.
 
 
 
