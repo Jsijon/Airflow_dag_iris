@@ -98,7 +98,7 @@ def process_flowers_dag():
    
 
    
-    [get_flowers_from_csv(), get_flowers_from_postgres] >> create_unprocessed_flowers_json_file() >> process_and_create_processed_flowers_json_file #>> seed_flowers_table
+    [get_flowers_from_csv(), get_flowers_from_postgres] >> create_unprocessed_flowers_json_file() >> process_and_create_processed_flowers_json_file
 
     get_flowers_from_csv() >> update_postgres_with_new_data
 
